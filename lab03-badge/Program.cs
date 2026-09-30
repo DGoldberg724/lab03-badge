@@ -22,3 +22,10 @@ Console.WriteLine("Name on Badge: " + fullName);
 Console.WriteLine($"Username: {firstInitial}{lastName}");
 Console.WriteLine("Initials: " + firstInitial.ToUpper() + "." + lastInitial.ToUpper() + ".");
 Console.WriteLine("Letters in Last Name: " + lastNameLength);
+
+//Part 2
+Random rng = new Random();
+int studentId = rng.Next(100000, 1000000);
+int lockerNumber = rng.Next(1, 501);
+Console.WriteLine($"Student ID: {studentId}");
+Console.WriteLine($"Locker: {lockerNumber}");
